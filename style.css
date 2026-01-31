@@ -1,0 +1,62 @@
+/* Style for the entire page */
+body {
+    background-color: white;       
+    color: #404040;                
+    font-family: Georgia, serif;   
+    font-size: 11pt;               
+}
+
+/* Main heading style */
+h1 {
+    text-align: center;            
+    font-size: 22pt;               
+    font-weight: bold;             
+    text-decoration: underline;    
+}
+
+/* Subheading style */
+h2 {
+    text-align: left;              
+    font-size: 18pt;               
+    font-weight: normal;           
+    text-decoration: underline;    
+}
+
+/* Link color */
+a {
+    color: #A4A400;                
+}
+
+/* Image size */
+img {
+    width: 400px;                  
+    display: block;                
+    margin: 0 auto;                
+}
+
+/* Image caption inside div */
+div > p {
+    font-style: italic;            
+    font-size: 10pt;               
+    text-align: center;            
+    margin-top: 5px;               
+}
+
+/* All divs used as quotes */
+div {
+    background-color: #FFFFA8;     
+    font-style: italic;            
+    border-left: 3px solid gray;   
+    padding: 10px;                 
+    margin: 10px 0;                
+}
+
+/* Bold text inside quotes */
+div strong {
+    font-weight: bold;
+}
+
+/* Visitor tips list with image bullets */
+.tips {
+    list-style-image: url("images/bullet.png");
+}
